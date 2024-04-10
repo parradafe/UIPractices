@@ -11,9 +11,9 @@ export default function SecondSection(){
     ];
     
     return(
-        <div className="bg-white h-32 grid grid-cols-[minmax(300px,35%)_1fr] mt-24 mx-6">
-            <div className="flex justify-center items-center">
-                <span className="text-[40px] font-semibold h-14">
+        <div className="bg-[#FFF] h-48 grid grid-cols-[minmax(300px,30%)_1fr] mt-24 mx-6 mb-20">
+            <div className="flex items-center w-[70%] leading-tight">
+                <span className="text-[40px] font-semibold h-14 relative -top-8">
                     Why Choosing Us
                 </span>
             </div>
