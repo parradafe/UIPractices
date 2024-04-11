@@ -1,10 +1,10 @@
 export default function ProductCard({ data: { image, type, productName, rate, price } }) {
     return (
-        <div className="rounded-2xl bg-[#efefef] w-[268px]">
-            <div className="flex justify-center">
+        <div className="rounded-2xl bg-white w-[268px]">
+            <div className="flex justify-center rounded-t-2xl bg-[#efefef] min-h-[288px]">
                 <img className="relative -top-14 h-[196] w-[240]" src={image} />
             </div>
-            <div className="bg-white pt-3 px-4 pb-8">
+            <div className="pt-3 px-4 pb-8">
                 <div className="mb-8">
                     <p className="text-gray-500 font-thin">{type}</p>
                     <p className="font-semibold text-xl">{productName}</p>
