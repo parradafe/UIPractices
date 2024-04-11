@@ -1,4 +1,4 @@
-import DetailCard from "./detailCard";
+import DetailCard from "../components/detailCard";
 
 export default function SecondSection(){
     const references = [
